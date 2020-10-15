@@ -17,7 +17,7 @@ def player_guess():
         try:
             num = int(input("Enter a number between 1 and 10: "))
 
-            # While the number is less than 1 or more than 11, prompts the user to enter a valid number
+            # While the number is less than 1 or more than 10, prompts the user to enter a valid number
             while num not in range(1, 11):
                 print("Number not in range!")
                 num = int(input("Enter a number between 1 and 10: "))
